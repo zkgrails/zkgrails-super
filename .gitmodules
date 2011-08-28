@@ -1,0 +1,24 @@
+[submodule "zkgrails"]
+	path = zkgrails
+	url = git@github.com:zkgrails/zkgrails.git
+[submodule "zkgrails-aspect"]
+	path = zkgrails-aspect
+	url = git@github.com:zkgrails/zkgrails-aspect.git
+[submodule "zkgrails-ee"]
+	path = zkgrails-ee
+	url = git@github.com:zkgrails/zkgrails-ee.git
+[submodule "zkgrails-hibernate"]
+	path = zkgrails-hibernate
+	url = git@github.com:zkgrails/zkgrails-hibernate.git
+[submodule "zkgrails-mongodb"]
+	path = zkgrails-mongodb
+	url = git@github.com:zkgrails/zkgrails-mongodb.git
+[submodule "zkgrails-redis"]
+	path = zkgrails-redis
+	url = git@github.com:zkgrails/zkgrails-redis.git
+[submodule "zkgrails-gsp"]
+	path = zkgrails-gsp
+	url = git@github.com:zkgrails/zkgrails-gsp.git
+[submodule "zkgrails-codemirror"]
+	path = zkgrails-codemirror
+	url = git@github.com:zkgrails/zkgrails-codemirror.git
