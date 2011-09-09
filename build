@@ -1,0 +1,15 @@
+# rm -Rf `cygpath -u $USERPROFILE`/.grails/ivycache
+
+cd zkgrails
+grails clean
+rm plugin.xml
+grails package-plugin
+cp -f grails-zk-*.zip $GRAILS_HOME/plugins/.
+cd ..
+
+cd zkgrails-hibernate
+grails clean
+rm plugin.xml
+grails package-plugin
+cp -f grails-zk-*.zip $GRAILS_HOME/plugins/.
+cd ..

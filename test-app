@@ -1,0 +1,8 @@
+# rm -Rf `cygpath -u $USERPROFILE`/.grails/ivycache
+
+rm -Rf `cygpath -u $USERPROFILE`/.grails/ivy-cache/org.grails.plugins
+rm -Rf `cygpath -u $USERPROFILE`/.grails/2.0.0.M2/projects/test-zk
+rm -Rf test-zk
+grails create-app test-zk
+cd test-zk
+grails install-plugin zk
